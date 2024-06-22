@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90vw;
+  height: 86px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+nav img {
+  width: 150px;
+}
+nav .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+nav .nav-ul li {
+  list-style: none;
+}
+nav .nav-ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav .nav-ul a:hover {
+  text-decoration: underline;
+}
+
+.half-nav {
+  background-color: #FBFAF3;
+  height: 60px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.half-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 70vw;
+  gap: 73px;
+}
+.half-nav ul li {
+  list-style: none;
+}
+.half-nav ul li a {
+  text-decoration: none;
+  color: #0c263b;
+  font-size: 18px;
+  font-weight: 400;
+}
+.half-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.one {
+  width: 100%;
+  height: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0c263b;
+  color: white;
+}
+.one h3 {
+  font-size: 31px;
+}
+.one p {
+  font-size: 24px;
+}
+
+.two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 45px;
+  -ms-grid-columns: 1fr 45px 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 85vw;
+  margin: auto;
+}
+.grid .grid-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 500px;
+  gap: 10px;
+  border-radius: 12px;
+  height: 560px;
+  padding: 10px;
+}
+.grid .grid-box img {
+  border-radius: 12px;
+}
+.grid .grid-box span {
+  font-size: 11.4px;
+  line-height: 1.1;
+  font-weight: 300;
+}
+.grid .grid-box p {
+  font-size: 12.3px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.grid .grid-box button {
+  width: 143px;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: white;
+  border: 2px solid #5F6B74;
+  border-radius: 7px;
+  color: #5F6B74;
+  padding: 4px 2px;
+}
+.grid .grid-box button:hover {
+  background-color: #0c263b;
+  color: white;
+  border: 2px solid #0c263b;
+}
+
+.netx {
+  width: 100%;
+  height: 200px;
+}
+.netx .netx-with {
+  width: 50vw;
+  height: 100%;
+  gap: 23px;
+  font-size: 40px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.netx .netx-with .btn-2 {
+  font-size: 16px;
+  background-color: white;
+  color: #5F6B74;
+  border: 1px solid #E7EEF3;
+  padding: 4px 7px;
+  border-radius: 4px;
+}
+.netx .netx-with .btn-2:hover {
+  background-color: #0c263b;
+  color: white;
+}
+.netx .netx-with span {
+  color: #0c263b;
+  border: 105px;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E7EEF3;
+}
+footer .contener {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  height: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .contener ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+footer .contener ul li {
+  list-style: none;
+}
+footer .contener ul li a {
+  color: #5F6B74;
+  font-size: 13px;
+  font-weight: 900;
+}
+footer .contener p {
+  color: #5F6B74;
+  font-weight: 900;
+  font-size: 13px;
+}
